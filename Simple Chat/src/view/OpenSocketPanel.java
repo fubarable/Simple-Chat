@@ -45,6 +45,7 @@ public class OpenSocketPanel extends JPanel {
 
 	// for testing purposes
 	public static void main(String[] args) {
+		System.out.println("This is a test!");
 		SwingUtilities.invokeLater(() -> {
 			OpenSocketPanel openSocketPanel = new OpenSocketPanel("My Client");
 			String title = "Open Socket";
